@@ -1,5 +1,5 @@
 def check_palindrome(str):
-    if str[0:]==str[-1:]:
+    if str==str[::-1]:
         return True
     else:
         return False
@@ -20,5 +20,5 @@ def longest(str):
         else:
             return (right)
 
-print(longest("mapam"))
+print(longest("geeks"))
 
