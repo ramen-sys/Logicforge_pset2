@@ -19,6 +19,6 @@ def longest(str):
             return (left)
         else:
             return (right)
-
+print("Word= geeks")
 print(longest("geeks"))
 

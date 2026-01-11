@@ -16,12 +16,13 @@ def koko(pile, k):
             answer = mid
             right = mid - 1
         else:
-            left = mid + 1      
+            left = mid + 1
 
     return answer
 
 
 
-
+print("pile: [5,10,15,20]")
+print("hours: 7")
 print(koko([5,10,15,20],7))
 

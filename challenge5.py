@@ -16,4 +16,5 @@ def min_cancelled_bookings(intervals):
 
 
     return min_rem
+print("[[1, 2], [5, 10], [18, 35]]")
 print(min_cancelled_bookings( [[1, 2], [5, 10], [18, 35]]))

@@ -11,11 +11,8 @@ def can_balance_scales(arr):
             return False
         elif target!=0:
 
-            for i in arr:
-                target=target-i
-                arr=arr.pop(i)
-                can_balance_scales(arr)
-
+        else:
+            include=can_balance_scales()
 
 
 

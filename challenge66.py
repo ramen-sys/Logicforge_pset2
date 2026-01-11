@@ -24,7 +24,8 @@ def job(deadlines,profit):
 
             job_count+=1
     return job_count,total_profit
-
+print("deadline: [4,1,1,1]")
+print("profits: [20,10,40,30]")
 print(job([4,1,1,1],[20,10,40,30]))
 
 

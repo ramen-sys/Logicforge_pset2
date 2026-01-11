@@ -12,5 +12,6 @@ def count_payment_combinations(coins,total_sum):
         include=count_payment_combinations(coins,target-(coins[0]))
         exclude=count_payment_combinations(coins[1:],target)
         return include +exclude
-
+print("[2,5,3,6] is coins")
+print("10 is total sum")
 print(count_payment_combinations([2,5,3,6],10))

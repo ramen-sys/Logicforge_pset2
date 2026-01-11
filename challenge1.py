@@ -4,4 +4,5 @@ def count_to_summit(n):
         return 1
     else:
         return count_to_summit(n-1)+count_to_summit(n-2)
-print(count_to_summit(4))
+print("Steps = 4")
+print("answer: ",count_to_summit(4))
